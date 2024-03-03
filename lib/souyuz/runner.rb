@@ -37,7 +37,7 @@ module Souyuz
       build_path = Souyuz.project.options[:output_path]
       assembly_name = Souyuz.project.options[:assembly_name]
 
-      build_apk_path = "#{build_path}/#{assembly_name}.apk"
+      build_apk_path = "#{build_path}/#{assembly_name}.aab"
       Souyuz.cache[:build_apk_path] = build_apk_path
 
       build_apk_path
