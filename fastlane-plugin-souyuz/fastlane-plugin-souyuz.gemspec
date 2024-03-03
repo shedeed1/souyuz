@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'voydz@hotmail.com'
 
   spec.summary       = 'A fastlane component to make Xamarin builds a breeze'
-  spec.homepage      = 'https://github.com/voydz/souyuz'
+  spec.homepage      = 'https://github.com/shedeed1/souyuz'
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)

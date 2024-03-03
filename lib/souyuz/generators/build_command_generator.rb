@@ -44,7 +44,6 @@ module Souyuz
       def targets
         targets = []
         targets += build_targets
-        targets << "-t:SignAndroidPackage" if Souyuz.project.android?
 
         targets
       end
